@@ -1,0 +1,9 @@
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#e8edf7;background:#0b1020}
+*{box-sizing:border-box}body{margin:0;padding:24px 14px}.shell{max-width:760px;margin:0 auto}
+header{display:flex;align-items:center;gap:14px;margin:10px 0 24px}.logo{width:54px;height:54px;border-radius:16px;background:#b5f36b;color:#14200a;display:grid;place-items:center;font-weight:900;font-size:30px}
+h1{font-size:25px;margin:0}header p{margin:4px 0;color:#9aa8c3}.notice,form,.status,#result{background:#141b2e;border:1px solid #29344d;border-radius:18px;padding:20px;margin:14px 0}
+.notice{border-color:#675a2a;background:#211e16}.notice p{line-height:1.8;margin-bottom:0;color:#e7dcb8}
+label{display:block;font-weight:700;margin-bottom:10px}input[type=file]{display:block;width:100%;padding:14px;background:#0d1425;border:1px dashed #52617f;border-radius:12px;color:#dbe5fa}
+small{display:block;color:#9aa8c3;margin:8px 0 18px}button,.download{display:inline-block;border:0;border-radius:12px;background:#b5f36b;color:#17210d;font-weight:800;padding:13px 20px;font-size:16px;text-decoration:none;cursor:pointer}
+button:disabled{opacity:.5;cursor:wait}.status{line-height:1.7;color:#b8c6df}#result h2{font-size:18px}pre{white-space:pre-wrap;overflow-wrap:anywhere;direction:ltr;text-align:left;background:#080d18;color:#c5d6ef;border-radius:12px;padding:14px;max-height:320px;overflow:auto;font-size:12px}
+footer{text-align:center;color:#7f8ba4;font-size:13px;margin:24px 0}code{direction:ltr;display:inline-block}

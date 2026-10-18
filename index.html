@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>کامپایلر آنلاین Kotlin به APK</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="shell">
+  <header>
+    <div class="logo">K</div>
+    <div><h1>کامپایلر اندروید</h1><p>ساخت APK از پروژه Kotlin / Android</p></div>
+  </header>
+  <section class="notice">
+    <strong>قبل از شروع</strong>
+    <p>این نسخه پروژه کامل Android Gradle را به صورت ZIP می‌گیرد. فایل <code>.kt</code> به‌تنهایی کافی نیست؛ پروژه باید Manifest، فایل‌های Gradle و منابع لازم را هم داشته باشد.</p>
+  </section>
+  <form id="buildForm">
+    <label for="project">فایل ZIP پروژه اندروید</label>
+    <input id="project" name="project" type="file" accept=".zip,application/zip" required>
+    <small>حداکثر حجم فایل: ۵۰ مگابایت</small>
+    <button id="buildButton" type="submit">ساخت APK</button>
+  </form>
+  <section id="status" class="status" aria-live="polite">آماده دریافت پروژه.</section>
+  <section id="result" hidden>
+    <h2>گزارش ساخت</h2>
+    <pre id="log"></pre>
+    <a id="download" class="download" href="#">دریافت APK</a>
+  </section>
+  <footer>برای اجرای این سایت به سروری با Docker، JDK و Android SDK نیاز است.</footer>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
